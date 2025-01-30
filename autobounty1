@@ -6,15 +6,15 @@ getgenv().Configs = {
     ["Click Time"] = 0.2,
     ["White Screen"] = false, -- false / true
     ["Chat"] = {
-        ["Enable"] = false,
-        ["Message"] = {"", "", "", ""}, -- Input your message here
+        ["Enable"] = true,
+        ["Message"] = {"im sorry","follow tlk t0k giathien2102", "", ""}, -- Input your message here
     },
     ["Run When Low Health"] = {
         ["Enable"] = false,
         ["Health"] = 3000,
         ["Come back"] = true
     },
-    ["Region"] = "United States", -- Singapore, United States, Germany, France, India, ??? ... or "All"
+    ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ... or "All"
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
@@ -24,7 +24,7 @@ getgenv().Configs = {
                 ["Z"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0.6,
-                    ["Order"] = 2,
+                    ["Order"] = 3,
                     ["Time to next skill"] = 0.5
                 },
                 ["X"] = {
@@ -36,7 +36,7 @@ getgenv().Configs = {
                 ["C"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0.1,
-                    ["Order"] = 3,
+                    ["Order"] = 2,
                     ["Time to next skill"] = 0.5
                 }
             }
@@ -49,7 +49,7 @@ getgenv().Configs = {
                 ["Z"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
-                    ["Order"] = 2,
+                    ["Order"] = 3,
                     ["Time to next skill"] = 0
                 },
                 ["X"] = {
@@ -59,9 +59,9 @@ getgenv().Configs = {
                     ["Time to next skill"] = 0
                 },
                 ["C"] = {
-                    ["Enable"] = false,
+                    ["Enable"] = true,
                     ["HoldTime"] = 0,
-                    ["Order"] = 0,
+                    ["Order"] = 2,
                     ["Time to next skill"] = 0
                 },
                 ["V"] = {
@@ -85,13 +85,13 @@ getgenv().Configs = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.3,
+                    ["HoldTime"] = 0,
                     ["Order"] = 1,
                     ["Time to next skill"] = 0.5
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.4,
+                    ["HoldTime"] = 0,
                     ["Order"] = 2,
                     ["Time to next skill"] = 0.5
                 }
