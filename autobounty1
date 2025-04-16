@@ -6,12 +6,12 @@ getgenv().Configs = {
     ["Click Time"] = 0.35,
     ["White Screen"] = false, -- false / true
     ["Chat"] = {
-        ["Enable"] = true,
+        ["Enable"] = falae,
         ["Message"] = {"im sorry","follow tlk t0k giathien2102", "", ""}, -- Input your message here
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
-        ["Health"] = 3000,
+        ["Health"] = 3500,
         ["Come back"] = true
     },
     ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ... or "All"
@@ -23,8 +23,8 @@ getgenv().Configs = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.1,
-                    ["Order"] = 3,
+                    ["HoldTime"] = 1.1,
+                    ["Order"] = 2,
                     ["Time to next skill"] = 0.5
                 },
                 ["X"] = {
@@ -35,14 +35,14 @@ getgenv().Configs = {
                 },
                 ["C"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.1,
-                    ["Order"] = 2,
+                    ["HoldTime"] = 1.1,
+                    ["Order"] = 3,
                     ["Time to next skill"] = 0.5
                 }
             }
         },
         ["Blox Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 0.2,
             ["Order"] = 4,
             ["Skills"] = {
@@ -85,13 +85,13 @@ getgenv().Configs = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1,
                     ["Order"] = 1,
                     ["Time to next skill"] = 0.5
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1,
                     ["Order"] = 2,
                     ["Time to next skill"] = 0.5
                 }
@@ -104,13 +104,13 @@ getgenv().Configs = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1.2,
                     ["Order"] = 2,
                     ["Time to next skill"] = 0
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1.2,
                     ["Order"] = 1,
                     ["Time to next skill"] = 0
                 }
@@ -129,8 +129,8 @@ getgenv().Configs = {
         }
     },
     ["Webhook"] = {
-        ["Enable"] = false,
-        ["Url"] = "",
+        ["Enable"] = true,
+        ["Url"] = "https://discord.com/api/webhooks/1342863714457489458/Gt5SM1ss70QhHgBiPL19Yp2GtEK-9DLLs5lS-UKGbqvoIgbzief2RhEky3gRjTC95aPV",
         ["Image"] = "https://media.discordapp.net/attachments/1162947702615711765/1229739840661094451/background.png?ex=67576eb9&is=67561d39&hm=da94e1b066b7a974e1577fe4fb355ce2907de8acf56aa4c467d7023a59d1d927&=&format=webp&quality=lossless&width=692&height=395"
     }
 }
